@@ -61,3 +61,33 @@ Replace `<startTime>`, `<endTime>`, and `<id>` with actual start and end times i
 ## Note
 
 This application assumes that all dispensers start with the same initial volume of beer, and that this initial volume is larger than the `flow_volume * totalOpenTime`. If a dispenser's volume goes below 1 litre, the dispenser will be closed automatically.
+
+## Screenshots
+
+### Branch Manager
+
+![Branch](https://github.com/nkutechologies/Capital-Market-Analytics/assets/71810407/4e2fd8ef-a1f0-4130-85ea-800050d7c6de)
+
+### Capital Mangement
+
+![Capital Management](https://github.com/nkutechologies/Capital-Market-Analytics/assets/71810407/1567ff2c-ac90-4231-b43e-f6dc58342673)
+
+### Financial Summary
+
+![Financial Summary](https://github.com/nkutechologies/Capital-Market-Analytics/assets/71810407/218938fa-66ed-4dc2-872a-3c03b427ef22)
+
+
+## Videos
+
+
+
+https://github.com/nkutechologies/Capital-Market-Analytics/assets/71810407/d382734a-5d46-43c2-a1b0-745084ace301
+
+
+
+https://github.com/nkutechologies/Capital-Market-Analytics/assets/71810407/77043928-aa95-4a0a-8042-eec41afddfbc
+
+
+
+https://github.com/nkutechologies/Capital-Market-Analytics/assets/71810407/5cec62c0-05b5-4a91-bb36-b1a8b310c1b8
+
