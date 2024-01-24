@@ -18,21 +18,6 @@ These instructions will get you a copy of the project up and running on your loc
 You need to have Node.js and MongoDB installed on your machine to run this project locally. MongoDB should be running on `localhost:27017` (the default MongoDB port).
 Here is the current Url from .env `mongodb://localhost:27017/beerDispenser`
 
-### Installation
-
-1. Clone the repo
-   ```bash
-   git clone <repo_link>
-   ```
-2. Install NPM packages
-   ```bash
-   npm install
-   ```
-3. Run the server (development mode)
-   ```bash
-   npm run dev
-   ```
-
 ## :clipboard: Models
 
 ### Dispenser
