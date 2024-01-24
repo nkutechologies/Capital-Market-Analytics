@@ -2,14 +2,7 @@
 
 This is a Beer Tap Dispensers application built using Node.js, Express, and MongoDB. The application manages beer dispensers and tracks their usage.
 
-## :hammer_and_wrench: Technology Stack
-
-- Node.js
-- Express
-- MongoDB
-- Mongoose
-
-## :rocket: Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -18,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 You need to have Node.js and MongoDB installed on your machine to run this project locally. MongoDB should be running on `localhost:27017` (the default MongoDB port).
 Here is the current Url from .env `mongodb://localhost:27017/beerDispenser`
 
-## :clipboard: Models
+## Models
 
 ### Dispenser
 
@@ -40,7 +33,7 @@ Here is the current Url from .env `mongodb://localhost:27017/beerDispenser`
 - `served` (volume of beer served during this use)
 - `revenue` (revenue generated during this use)
 
-## :hammer_and_wrench: Services
+## Modules
 
 ### DispenserService
 
@@ -54,7 +47,7 @@ Here is the current Url from .env `mongodb://localhost:27017/beerDispenser`
 - `createDispenserHistory`: Creates a new dispenser history record with the provided dispenser data.
 - `getReport`: Retrieves a report of dispenser usage and revenue for a given time period.
 
-## :satellite: API Endpoints
+## API Endpoints
 
 - `POST /dispenser`: Create a new dispenser
 - `PATCH /dispenser/:id/open`: Open a dispenser
@@ -65,6 +58,6 @@ Here is the current Url from .env `mongodb://localhost:27017/beerDispenser`
 
 Replace `<startTime>`, `<endTime>`, and `<id>` with actual start and end times in ISO 8601 date and time format (for example, `2023-08-01T00:00:00.000Z`) and the id of the dispenser respectively.
 
-## :warning: Note
+## Note
 
 This application assumes that all dispensers start with the same initial volume of beer, and that this initial volume is larger than the `flow_volume * totalOpenTime`. If a dispenser's volume goes below 1 litre, the dispenser will be closed automatically.
