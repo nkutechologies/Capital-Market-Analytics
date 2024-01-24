@@ -1,4 +1,4 @@
-# Beer Tap Dispensers :beers:
+# Beer Tap Dispensers
 
 This is a Beer Tap Dispensers application built using Node.js, Express, and MongoDB. The application manages beer dispensers and tracks their usage.
 
